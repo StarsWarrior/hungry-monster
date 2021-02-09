@@ -1,3 +1,4 @@
+
 const getMeal = () =>{ 
     let searchInput = document.getElementById('srcInput').value;
     let mainNode = document.getElementById('showFood');
@@ -27,8 +28,7 @@ document.getElementById('searchBtn').addEventListener('click', function(){
 
 })
 
-
-         // Show Meals Ingredient
+         // Show Meals/Food Ingredient
 
 const getMealElement = meals => {
     document.getElementById('show-ingredient').innerText = "";
